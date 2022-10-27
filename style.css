@@ -1,6 +1,7 @@
 /* Special selectors */
 :root{
     --fuchsia: #e53170;
+    --light-blue: #65c7f1;
 }
 
 /* Reset CSS */
@@ -46,6 +47,20 @@ h1, p{
     content: '';
     display: table;
     clear: both;
+}
+
+.img-card{
+    height: 100px;
+    float: left;
+}
+
+h5, span{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #65c7f1;
 }
 
 
