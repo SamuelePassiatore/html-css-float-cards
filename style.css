@@ -37,8 +37,8 @@ h1, p{
 
 /* Main */
 section{
-margin-right: 1.5rem;
-margin-left: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .card{
@@ -58,11 +58,13 @@ margin-left: 1rem;
 .img-card{
     height: 100px;
     float: left;
+    margin-right: 10px;
 }
 
 .img-description{
+    height: 100%;
     padding: 10px;
-    float: left;
+    line-height: calc(80px / 3);
 }
 
 h5, span{
@@ -73,4 +75,3 @@ a{
     text-decoration: none;
     color: #65c7f1;
 }
-
